@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-venv"
+version = "1.0"
+description = "web frameworks"
+authors = ["Ivan-Danyleiko <vanyadanuleyko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
